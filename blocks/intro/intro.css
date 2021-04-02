@@ -1,0 +1,14 @@
+.intro {
+  color: #FFF;
+  background-color: #2A2C2F;
+  display: flex;
+  justify-content: center;
+  padding: 92px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
