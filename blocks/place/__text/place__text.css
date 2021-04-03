@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+  .place__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
