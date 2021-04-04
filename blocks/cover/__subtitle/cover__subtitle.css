@@ -5,25 +5,15 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
-  /* or 122% */
+  line-height: 122%;
   text-align: center;
 }
 
-@media screen and (max-width: 1280px) {}
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
     margin: 16px 0 0;
     max-width: 288px;
     font-size: 14px;
-    line-height: 16px;
-    /* or 109% */
+    line-height: 109%;
   }
 }
-
-@media screen and (max-width: 425px) {}
-
-@media screen and (max-width: 320px) {}

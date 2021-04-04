@@ -4,17 +4,8 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1280px) {}
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__image {
-    grid-column: 1/2;
     grid-row: 3/4;
   }
 }
-
-@media screen and (max-width: 425px) {}
-
-@media screen and (max-width: 320px) {}

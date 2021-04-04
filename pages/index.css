@@ -6,10 +6,6 @@
 
 @import url(../vendor/Inter/inter.css);
 
-/*root*/
-
-@import url(../blocks/root/root.css);
-
 /*page*/
 
 @import url(../blocks/page/page.css);
@@ -21,7 +17,7 @@
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
-@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__lang-links-element/header__lang-links-element.css);
 
 /*lead*/
 
@@ -30,7 +26,6 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-@import url(../blocks/lead/__container/lead__container.css);
 
 /*intro*/
 
@@ -39,12 +34,11 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__list-item/_text-decoration/intro__list-item_text-decoration_bold.css);
 
 /*photo-grid*/
 
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__items/photo-grid__items.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /*places*/
@@ -65,11 +59,8 @@
 /*cover*/
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__container/cover__container.css);
 
 /*footer*/
 
@@ -77,5 +68,4 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__link-element/footer__link-element.css);

@@ -1,9 +1,11 @@
 .place__website {
   align-self: end;
   justify-self: start;
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__website {
     justify-self: center;
     width: calc(100% - 32px);

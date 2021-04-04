@@ -5,24 +5,14 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
-  /* or 106% */
+  line-height: 106%;
   text-align: center;
 }
 
-@media screen and (max-width: 1280px) {}
-
-@media screen and (max-width: 1024px) {}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__title {
     max-width: 250px;
     font-size: 32px;
-    line-height: 35px;
-    /* or 109% */
+    line-height: 109%;
   }
 }
-
-@media screen and (max-width: 425px) {}
-
-@media screen and (max-width: 320px) {}
